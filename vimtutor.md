@@ -24,8 +24,8 @@ completely fills the screen.
 
 #### Lesson 1.1:  MOVING THE CURSOR
 
+##### To move the cursor, press the `h`,`j`,`k`,`l` keys as indicated.
 
-   ** To move the cursor, press the `h`,`j`,`k`,`l` keys as indicated. **
 ~~~
 	     ^
 	     k		    Hint:  The h key is at the left and moves left.
@@ -96,14 +96,14 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
 ##### Press `i` to insert text.
 
-  1. Move the cursor to the first line below marked --->.
+  1. Move the cursor to the first line below marked `--->`.
 
   2. To make the first line the same as the second, move the cursor on top
      of the first character AFTER where the text is to be inserted.
 
-  3. Press  i  and type in the necessary additions.
+  3. Press `i` and type in the necessary additions.
 
-  4. As each error is fixed press <ESC> to return to Normal mode.
+  4. As each error is fixed press `<ESC>` to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
 ~~~
@@ -117,23 +117,24 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
 #### Lesson 1.5: TEXT EDITING - APPENDING
 
+##### Press `A` to append text.
 
-			** Press  A  to append text. **
-
-  1. Move the cursor to the first line below marked --->.
+  1. Move the cursor to the first line below marked `--->`.
      It does not matter on what character the cursor is in that line.
 
-  2. Press  A  and type in the necessary additions.
+  2. Press `A` and type in the necessary additions.
 
-  3. As the text has been appended press <ESC> to return to Normal mode.
+  3. As the text has been appended press `<ESC>` to return to Normal mode.
 
-  4. Move the cursor to the second line marked ---> and repeat 
+  4. Move the cursor to the second line marked `--->` and repeat 
      steps 2 and 3 to correct this sentence.
 
+~~~
 ---> There is some text missing from th
      There is some text missing from this line.
 ---> There is also some text miss
      There is also some text missing here.
+~~~
 
   5. When you are comfortable appending text move to lesson 1.6.
 
@@ -145,16 +146,16 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
 
-  1. Exit this tutor as you did in lesson 1.2:  :q!
+  1. Exit this tutor as you did in lesson 1.2:  `:q!`
      Or, if you have access to another terminal, do the following there.
 
-  2. At the shell prompt type this command:  vim tutor <ENTER>
+  2. At the shell prompt type this command:  vim tutor `<ENTER>`
      'vim' is the command to start the Vim editor, 'tutor' is the name of the
      file you wish to edit.  Use a file that may be changed.
 
   3. Insert and delete text as you learned in the previous lessons.
 
-  4. Save the file with changes and exit Vim with:  :wq  <ENTER>
+  4. Save the file with changes and exit Vim with:  `:wq  <ENTER>`
 
   5. If you have quit vimtutor in step 1 restart the vimtutor and move down to
      the following summary.
@@ -162,16 +163,16 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   6. After reading the above steps and understanding them: do it.
   
 * * *
+
 #### Lesson 1 SUMMARY
 
-
   1. The cursor is moved using either the arrow keys or the hjkl keys.
-	 h (left)	j (down)       k (up)	    l (right)
+	 `h (left)`	`j (down)`       `k (up)`	    `l (right)`
 
   2. To start Vim from the shell prompt type:  vim FILENAME <ENTER>
 
-  3. To exit Vim type:	   <ESC>   :q!	 <ENTER>  to trash all changes.
-	     OR type:	   <ESC>   :wq	 <ENTER>  to save the changes.
+  3. To exit Vim type:	   `<ESC>   :q!	 <ENTER>`  to trash all changes.
+	     OR type:	   `<ESC>   :wq	 <ENTER>`  to save the changes.
 
   4. To delete the character at the cursor type:  x
 
@@ -341,12 +342,14 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   4. To repeat a motion prepend it with a number:   2w
   5. The format for a change command is:
+  ~~~
                operator   [number]   motion
      where:
        operator - is what to do, such as  d  for delete
        [number] - is an optional count to repeat the motion
        motion   - moves over the text to operate on, such as  w (word),
 		  $ (to the end of line), etc.
+~~~
 
   6. To move to the start of the line use a zero:  0
 
