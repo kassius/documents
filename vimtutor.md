@@ -41,7 +41,7 @@ completely fills the screen.
 
   3. Using the down key, move to Lesson 1.2.
 
-NOTE: If you are ever unsure about something you typed, press <ESC> to place
+NOTE: If you are ever unsure about something you typed, press `<ESC>` to place
       you in Normal mode.  Then retype the command you wanted.
 
 NOTE: The cursor keys should also work.  But using hjkl you will be able to
@@ -54,39 +54,39 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
 
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
 
-  1. Press the <ESC> key (to make sure you are in Normal mode).
+  1. Press the `<ESC>` key (to make sure you are in Normal mode).
 
-  2. Type:	:q! <ENTER>.
+  2. Type:	`:q! <ENTER>`.
      This exits the editor, DISCARDING any changes you have made.
 
   3. When you see the shell prompt, type the command that got you into this
-     tutor.  That would be:	vimtutor <ENTER>
+     tutor.  That would be:	`vimtutor <ENTER>`
 
   4. If you have these steps memorized and are confident, execute steps
      1 through 3 to exit and re-enter the editor.
 
-NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
+NOTE:  `:q! <ENTER>`  discards any changes you made.  In a few lessons you
        will learn how to save the changes to a file.
 
   5. Move the cursor down to Lesson 1.3.
 
 * * *
 
-### Lesson 1.3: TEXT EDITING - DELETION
+#### Lesson 1.3: TEXT EDITING - DELETION
 
 
-	   ** Press  x  to delete the character under the cursor. **
+	   ** Press  `x`  to delete the character under the cursor. **
 
-  1. Move the cursor to the line below marked --->.
+  1. Move the cursor to the line below marked `--->`.
 
   2. To fix the errors, move the cursor until it is on top of the
      character to be deleted.
 
-  3. Press the	x  key to delete the unwanted character.
+  3. Press the	`x`  key to delete the unwanted character.
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+`---> The ccow jumpedd ovverr thhe mooon.`
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
