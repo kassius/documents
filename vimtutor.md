@@ -20,6 +20,8 @@ Now, make sure that your Shift-Lock key is NOT depressed and press
 the   `j`   key enough times to move the cursor so that Lesson 1.1
 completely fills the screen.
 
+* * *
+
 #### Lesson 1.1:  MOVING THE CURSOR
 
 
@@ -45,8 +47,8 @@ NOTE: If you are ever unsure about something you typed, press <ESC> to place
 NOTE: The cursor keys should also work.  But using hjkl you will be able to
       move around much faster, once you get used to it.  Really!
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			    Lesson 1.2: EXITING VIM
+* * *
+#### Lesson 1.2: EXITING VIM
 
 
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
