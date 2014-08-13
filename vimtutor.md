@@ -51,7 +51,6 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
 
 #### Lesson 1.2: EXITING VIM
 
-
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
 
   1. Press the `<ESC>` key (to make sure you are in Normal mode).
@@ -75,7 +74,7 @@ NOTE:  `:q! <ENTER>`  discards any changes you made.  In a few lessons you
 #### Lesson 1.3: TEXT EDITING - DELETION
 
 
-	   ** Press  `x`  to delete the character under the cursor. **
+##### Press `x` to delete the character under the cursor.
 
   1. Move the cursor to the line below marked `--->`.
 
