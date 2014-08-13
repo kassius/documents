@@ -1,4 +1,4 @@
-### W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7
+### Welcome to the VIM Tutor - Version 1.7
 
 Vim is a very powerful editor that has many commands, too many to
 explain in a tutor such as this.  This tutor is designed to describe
@@ -27,7 +27,7 @@ completely fills the screen.
 ~~~
 	     ^
 	     k		    Hint:  The h key is at the left and moves left.
-       < h	 l >		   The l key is at the right and moves right.
+    < h     l >		   The l key is at the right and moves right.
 	     j			   The j key looks like a down arrow.
 	     v
 ~~~
