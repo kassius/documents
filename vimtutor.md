@@ -161,8 +161,8 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
   6. After reading the above steps and understanding them: do it.
   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			       Lesson 1 SUMMARY
+* * *
+#### Lesson 1 SUMMARY
 
 
   1. The cursor is moved using either the arrow keys or the hjkl keys.
@@ -184,8 +184,8 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
 
 Now continue with Lesson 2.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			Lesson 2.1: DELETION COMMANDS
+* * *
+#### Lesson 2.1: DELETION COMMANDS
 
 
 		       ** Type  dw  to delete a word. **
@@ -202,16 +202,16 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+`---> There are a some words fun that don't belong paper in this sentence.`
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
+
 #### Lesson 2.2: MORE DELETION COMMANDS
 
-
-	   ** Type  d$	to delete to the end of the line. **
+##### Type `d$` to delete to the end of the line.
 
   1. Press  <ESC>  to make sure you are in Normal mode.
 
@@ -226,13 +226,9 @@ Now continue with Lesson 2.
 
   5. Move on to Lesson 2.3 to understand what is happening.
 
+* * *
 
-
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 2.3: ON OPERATORS AND MOTIONS
-
+#### Lesson 2.3: ON OPERATORS AND MOTIONS
 
   Many commands that change text are made from an operator and a motion.
   The format for a delete command with the  d  delete operator is as follows:
@@ -253,11 +249,11 @@ Now continue with Lesson 2.
 NOTE:  Pressing just the motion while in Normal mode without an operator will
        move the cursor as specified.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 2.4: USING A COUNT FOR A MOTION
+* * *
 
+#### Lesson 2.4: USING A COUNT FOR A MOTION
 
-   ** Typing a number before a motion repeats it that many times. **
+##### Typing a number before a motion repeats it that many times.
 
   1. Move the cursor to the start of the line marked ---> below.
 
@@ -273,14 +269,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   6. Move on to Lesson 2.5.
 
+* * *
 
+#### Lesson 2.5: USING A COUNT TO DELETE MORE
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 2.5: USING A COUNT TO DELETE MORE
-
-
-   ** Typing a number with an operator repeats it that many times. **
+##### Typing a number with an operator repeats it that many times.
 
   In the combination of the delete operator and a motion mentioned above you
   insert a count before the motion to delete more:
@@ -295,15 +288,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
 --->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
 
+* * *
 
+#### Lesson 2.6: OPERATING ON LINES
 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			 Lesson 2.6: OPERATING ON LINES
-
-
-		   ** Type  dd   to delete a whole line. **
+##### Type  dd   to delete a whole line.
 
   Due to the frequency of whole line deletion, the designers of Vi decided
   it would be easier to simply type two d's to delete a line.
@@ -322,11 +311,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 --->  7)  And so are you.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			 Lesson 2.7: THE UNDO COMMAND
+* * *
 
+#### Lesson 2.7: THE UNDO COMMAND
 
-   ** Press  u	to undo the last commands,   U  to fix a whole line. **
+##### Press  u	to undo the last commands,   U  to fix a whole line.
 
   1. Move the cursor to the line below marked ---> and place it on the
      first error.
@@ -342,12 +331,9 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
+* * *
 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			       Lesson 2 SUMMARY
-
+#### Lesson 2 SUMMARY
 
   1. To delete from the cursor up to the next word type:    dw
   2. To delete from the cursor to the end of a line type:    d$
@@ -368,7 +354,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
      To undo all the changes on a line, type:  U  (capital U)
      To undo the undo's, type:		       CTRL-R
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			 Lesson 3.1: THE PUT COMMAND
 
 
@@ -391,7 +377,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		       Lesson 3.2: THE REPLACE COMMAND
 
 
@@ -414,7 +400,7 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			Lesson 3.3: THE CHANGE OPERATOR
 
 
@@ -437,7 +423,7 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		       Lesson 3.4: MORE CHANGES USING c
 
 
@@ -460,7 +446,7 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			       Lesson 3 SUMMARY
 
 
@@ -483,7 +469,7 @@ Now go on to the next lesson.
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		  Lesson 4.1: CURSOR LOCATION AND FILE STATUS
 
   ** Type CTRL-G to show your location in the file and the file status.
@@ -506,7 +492,7 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
 
   4. If you feel confident to do this, execute steps 1 through 3.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			Lesson 4.2: THE SEARCH COMMAND
 
 
@@ -529,7 +515,7 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
 NOTE: When the search reaches the end of the file it will continue at the
       start, unless the 'wrapscan' option has been reset.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		   Lesson 4.3: MATCHING PARENTHESES SEARCH
 
 
@@ -552,7 +538,7 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 #### Lesson 4.4: THE SUBSTITUTE COMMAND
 
 
@@ -575,7 +561,7 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
      Type   :%s/old/new/gc     to find every occurrence in the whole file,
      			       with a prompt whether to substitute or not.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			       Lesson 4 SUMMARY
 
 
@@ -598,7 +584,7 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
      To substitute all occurrences in the file type	   :%s/old/new/g
      To ask for confirmation each time add 'c'		   :%s/old/new/gc
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
 
 
@@ -621,7 +607,7 @@ NOTE:  All  :  commands must be finished by hitting <ENTER>
        From here on we will not always mention it.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 #### Lesson 5.2: MORE ON WRITING FILES
 
 
@@ -644,7 +630,7 @@ NOTE: If you were to exit Vim and start it again with  vim TEST , the file
 				or (Unix):	:!rm TEST
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		    Lesson 5.3: SELECTING TEXT TO WRITE
 
 
@@ -667,7 +653,7 @@ NOTE:  Pressing  v  starts Visual selection.  You can move the cursor around
        to make the selection bigger or smaller.  Then you can use an operator
        to do something with the text.  For example,  d  deletes the text.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		   Lesson 5.4: RETRIEVING AND MERGING FILES
 
 
@@ -690,7 +676,7 @@ NOTE:  You can also read the output of an external command.  For example,
        cursor.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			       Lesson 5 SUMMARY
 
 
@@ -713,7 +699,7 @@ NOTE:  You can also read the output of an external command.  For example,
       cursor position.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			 Lesson 6.1: THE OPEN COMMAND
 
 
@@ -736,7 +722,7 @@ NOTE:  You can also read the output of an external command.  For example,
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			Lesson 6.2: THE APPEND COMMAND
 
 
@@ -759,7 +745,7 @@ NOTE:  You can also read the output of an external command.  For example,
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
        the characters are inserted.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		    Lesson 6.3: ANOTHER WAY TO REPLACE
 
 
@@ -782,7 +768,7 @@ NOTE:  a, i and A all go to the same Insert mode, the only difference is where
 NOTE:  Replace mode is like Insert mode, but every typed character deletes an
        existing character.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			Lesson 6.4: COPY AND PASTE TEXT
 
 
@@ -805,7 +791,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
       b)
 
   NOTE: you can also use  y  as an operator;  yw  yanks one word.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			    Lesson 6.5: SET OPTION
 
 
@@ -828,7 +814,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 NOTE:  To remove the highlighting of matches enter:   :nohlsearch 
 NOTE:  If you want to ignore case for just one search command, use  \c
        in the phrase:  /ignore\c  <ENTER>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			       Lesson 6 SUMMARY
 
   1. Type  o  to open a line BELOW the cursor and start Insert mode.
@@ -851,7 +837,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 
   7. Prepend "no" to switch an option off:   :set noic
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 		       Lesson 7.1: GETTING HELP
 
 
@@ -874,7 +860,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 	:help c_CTRL-D
 	:help insert-index
 	:help user-manual
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 #### Lesson 7.2: CREATE A STARTUP SCRIPT
 
 
@@ -897,7 +883,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
   You can add all your preferred settings to this "vimrc" file.
   For more information type  :help vimrc-intro
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			     Lesson 7.3: COMPLETION
 
 
@@ -920,7 +906,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
        <TAB>.  It is especially useful for  :help .
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 			       Lesson 7 SUMMARY
 
 
@@ -943,7 +929,7 @@ NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
 
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 
   This concludes the Vim Tutor.  It was intended to give a brief overview of
   the Vim editor, just enough to allow you to use the editor fairly easily.
@@ -969,5 +955,5 @@ NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
 
   Modified for Vim by Bram Moolenaar.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* * *
 
