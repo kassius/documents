@@ -36,7 +36,7 @@ completely fills the screen.
 
   1. Move the cursor around the screen until you are comfortable.
 
-  2. Hold down the down key (j) until it repeats.
+  2. Hold down the down key (`j`) until it repeats.
      Now you know how to move to the next lesson.
 
   3. Using the down key, move to Lesson 1.2.
@@ -48,6 +48,7 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
       move around much faster, once you get used to it.  Really!
 
 * * *
+
 #### Lesson 1.2: EXITING VIM
 
 
@@ -69,9 +70,9 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   5. Move the cursor down to Lesson 1.3.
 
+* * *
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 1.3: TEXT EDITING - DELETION
+### Lesson 1.3: TEXT EDITING - DELETION
 
 
 	   ** Press  x  to delete the character under the cursor. **
