@@ -94,7 +94,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		      Lesson 1.4: TEXT EDITING - INSERTION
+#### Lesson 1.4: TEXT EDITING - INSERTION
 
 
 			** Press  i  to insert text. **
@@ -209,7 +209,7 @@ Now continue with Lesson 2.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		      Lesson 2.2: MORE DELETION COMMANDS
+#### Lesson 2.2: MORE DELETION COMMANDS
 
 
 	   ** Type  d$	to delete to the end of the line. **
@@ -554,7 +554,7 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		      Lesson 4.4: THE SUBSTITUTE COMMAND
+#### Lesson 4.4: THE SUBSTITUTE COMMAND
 
 
 	** Type  :s/old/new/g  to substitute 'new' for 'old'. **
@@ -623,7 +623,7 @@ NOTE:  All  :  commands must be finished by hitting <ENTER>
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		      Lesson 5.2: MORE ON WRITING FILES
+#### Lesson 5.2: MORE ON WRITING FILES
 
 
      ** To save the changes made to the text, type  :w FILENAME. **
@@ -876,7 +876,7 @@ NOTE:  If you want to ignore case for just one search command, use  \c
 	:help insert-index
 	:help user-manual
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		      Lesson 7.2: CREATE A STARTUP SCRIPT
+#### Lesson 7.2: CREATE A STARTUP SCRIPT
 
 
 			  ** Enable Vim features **
