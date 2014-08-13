@@ -174,39 +174,38 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   3. To exit Vim type:	   `<ESC>   :q!	 <ENTER>`  to trash all changes.
 	     OR type:	   `<ESC>   :wq	 <ENTER>`  to save the changes.
 
-  4. To delete the character at the cursor type:  x
+  4. To delete the character at the cursor type:  `x`
 
   5. To insert or append text type:
-	 i   type inserted text   <ESC>		insert before the cursor
-	 A   type appended text   <ESC>         append after the line
+	 `i`   type inserted text   `<ESC>`		insert before the cursor
+	 `A`   type appended text   `<ESC>`         append after the line
 
-NOTE: Pressing <ESC> will place you in Normal mode or will cancel
+NOTE: Pressing `<ESC>` will place you in Normal mode or will cancel
       an unwanted and partially completed command.
 
 Now continue with Lesson 2.
 
 * * *
+
 #### Lesson 2.1: DELETION COMMANDS
 
+##### Type  `dw`  to delete a word.
 
-		       ** Type  dw  to delete a word. **
+  1. Press  `<ESC>`  to make sure you are in Normal mode.
 
-  1. Press  <ESC>  to make sure you are in Normal mode.
-
-  2. Move the cursor to the line below marked --->.
+  2. Move the cursor to the line below marked `--->`.
 
   3. Move the cursor to the beginning of a word that needs to be deleted.
 
-  4. Type   dw	 to make the word disappear.
+  4. Type   `dw	` to make the word disappear.
 
-  NOTE: The letter  d  will appear on the last line of the screen as you type
-	it.  Vim is waiting for you to type  w .  If you see another character
-	than  d  you typed something wrong; press  <ESC>  and start over.
+  NOTE: The letter  `d`  will appear on the last line of the screen as you type
+	it.  Vim is waiting for you to type  `w` .  If you see another character
+	than  `d`  you typed something wrong; press  `<ESC>`  and start over.
 
 `---> There are a some words fun that don't belong paper in this sentence.`
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
-
 
 * * *
 
@@ -214,16 +213,15 @@ Now continue with Lesson 2.
 
 ##### Type `d$` to delete to the end of the line.
 
-  1. Press  <ESC>  to make sure you are in Normal mode.
+  1. Press  `<ESC>`  to make sure you are in Normal mode.
 
-  2. Move the cursor to the line below marked --->.
+  2. Move the cursor to the line below marked `--->`.
 
   3. Move the cursor to the end of the correct line (AFTER the first . ).
 
-  4. Type    d$    to delete to the end of the line.
+  4. Type    `d$`    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
-
+`---> Somebody typed the end of this line twice. end of this line twice.
 
   5. Move on to Lesson 2.3 to understand what is happening.
 
@@ -234,6 +232,7 @@ Now continue with Lesson 2.
   Many commands that change text are made from an operator and a motion.
   The format for a delete command with the  d  delete operator is as follows:
 
+~~~
   	d   motion
 
   Where:
@@ -244,8 +243,9 @@ Now continue with Lesson 2.
     w - until the start of the next word, EXCLUDING its first character.
     e - to the end of the current word, INCLUDING the last character.
     $ - to the end of the line, INCLUDING the last character.
+~~~
 
-  Thus typing  de  will delete from the cursor to the end of the word.
+Thus typing  `de`  will delete from the cursor to the end of the word.
 
 NOTE:  Pressing just the motion while in Normal mode without an operator will
        move the cursor as specified.
@@ -256,17 +256,17 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
 ##### Typing a number before a motion repeats it that many times.
 
-  1. Move the cursor to the start of the line marked ---> below.
+  1. Move the cursor to the start of the line marked `--->` below.
 
-  2. Type  2w  to move the cursor two words forward.
+  2. Type  `2w`  to move the cursor two words forward.
 
-  3. Type  3e  to move the cursor to the end of the third word forward.
+  3. Type  `3e`  to move the cursor to the end of the third word forward.
 
-  4. Type  0  (zero) to move to the start of the line.
+  4. Type  `0`  (zero) to move to the start of the line.
 
   5. Repeat steps 2 and 3 with different numbers.
 
----> This is just a line with words you can move around in.
+`---> This is just a line with words you can move around in.`
 
   6. Move on to Lesson 2.5.
 
@@ -278,16 +278,19 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   In the combination of the delete operator and a motion mentioned above you
   insert a count before the motion to delete more:
+
+~~~
 	 d   number   motion
+~~~
 
-  1. Move the cursor to the first UPPER CASE word in the line marked --->.
+  1. Move the cursor to the first UPPER CASE word in the line marked `--->`.
 
-  2. Type  d2w  to delete the two UPPER CASE words
+  2. Type  `d2w`  to delete the two UPPER CASE words
 
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+`--->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.`
 
 * * *
 
@@ -299,10 +302,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   it would be easier to simply type two d's to delete a line.
 
   1. Move the cursor to the second line in the phrase below.
-  2. Type  dd  to delete the line.
+  2. Type  `dd`  to delete the line.
   3. Now move to the fourth line.
-  4. Type   2dd   to delete two lines.
+  4. Type   `2dd`   to delete two lines.
 
+~~~
 --->  1)  Roses are red,
 --->  2)  Mud is fun,
 --->  3)  Violets are blue,
@@ -310,25 +314,25 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 --->  5)  Clocks tell time,
 --->  6)  Sugar is sweet
 --->  7)  And so are you.
-
+~~~
 
 * * *
 
 #### Lesson 2.7: THE UNDO COMMAND
 
-##### Press  u	to undo the last commands,   U  to fix a whole line.
+##### Press  `u`	to undo the last commands,   `U`  to fix a whole line.
 
-  1. Move the cursor to the line below marked ---> and place it on the
+  1. Move the cursor to the line below marked `--->` and place it on the
      first error.
-  2. Type  x  to delete the first unwanted character.
-  3. Now type  u  to undo the last command executed.
-  4. This time fix all the errors on the line using the  x  command.
-  5. Now type a capital  U  to return the line to its original state.
-  6. Now type  u  a few times to undo the  U  and preceding commands.
-  7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
+  2. Type  `x`  to delete the first unwanted character.
+  3. Now type  `u`  to undo the last command executed.
+  4. This time fix all the errors on the line using the  `x`  command.
+  5. Now type a capital  `U`  to return the line to its original state.
+  6. Now type  `u`  a few times to undo the  `U`  and preceding commands.
+  7. Now type `CTRL-R` (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+`---> Fiix the errors oon thhis line and reeplace them witth undo.`
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
@@ -336,11 +340,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
 #### Lesson 2 SUMMARY
 
-  1. To delete from the cursor up to the next word type:    dw
-  2. To delete from the cursor to the end of a line type:    d$
-  3. To delete a whole line type:    dd
+  1. To delete from the cursor up to the next word type:    `dw`
+  2. To delete from the cursor to the end of a line type:    `d$`
+  3. To delete a whole line type:    `dd`
 
-  4. To repeat a motion prepend it with a number:   2w
+  4. To repeat a motion prepend it with a number:   `2w`
   5. The format for a change command is:
   ~~~
                operator   [number]   motion
@@ -351,11 +355,11 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 		  $ (to the end of line), etc.
 ~~~
 
-  6. To move to the start of the line use a zero:  0
+  6. To move to the start of the line use a zero:  `0`
 
-  7. To undo previous actions, type: 	       u  (lowercase u)
-     To undo all the changes on a line, type:  U  (capital U)
-     To undo the undo's, type:		       CTRL-R
+  7. To undo previous actions, type: 	       `u`  (lowercase u)
+     To undo all the changes on a line, type:  `U`  (capital U)
+     To undo the undo's, type:		       `CTRL-R`
 
 * * *
 			 Lesson 3.1: THE PUT COMMAND
