@@ -73,7 +73,6 @@ NOTE:  `:q! <ENTER>`  discards any changes you made.  In a few lessons you
 
 #### Lesson 1.3: TEXT EDITING - DELETION
 
-
 ##### Press `x` to delete the character under the cursor.
 
   1. Move the cursor to the line below marked `--->`.
@@ -91,13 +90,11 @@ NOTE:  `:q! <ENTER>`  discards any changes you made.  In a few lessons you
 
 NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
+* * *
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### Lesson 1.4: TEXT EDITING - INSERTION
 
-
-			** Press  i  to insert text. **
+##### Press `i` to insert text.
 
   1. Move the cursor to the first line below marked --->.
 
@@ -109,15 +106,16 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
+~~~
 ---> There is text misng this .
 ---> There is some text missing from this line.
+~~~
 
   5. When you are comfortable inserting text move to lesson 1.5.
 
+* * *
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 1.5: TEXT EDITING - APPENDING
+#### Lesson 1.5: TEXT EDITING - APPENDING
 
 
 			** Press  A  to append text. **
@@ -139,10 +137,11 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
   5. When you are comfortable appending text move to lesson 1.6.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		     Lesson 1.6: EDITING A FILE
+* * *
 
-		    ** Use  :wq  to save a file and exit. **
+#### Lesson 1.6: EDITING A FILE
+
+##### Use `:wq` to save a file and exit.
 
   !! NOTE: Before executing any of the steps below, read this entire lesson!!
 
